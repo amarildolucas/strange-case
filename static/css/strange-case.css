@@ -79,12 +79,17 @@ p {
 	margin-bottom: 0.2em;
 	margin-top: 1em;
 	font-weight: bold;
-	color: #939598;
+	color: #2a2e35;
 }
 
 .post p {
 	font-weight: 300;
 }
+
+.post p img {
+	max-width: 100%;
+}
+
 .post .post-heading .post-date a {
 	color: #939598;
 	text-decoration: none;
