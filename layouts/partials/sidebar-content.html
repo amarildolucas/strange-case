@@ -16,16 +16,14 @@
 			{{end}}
 		</ul>
 
-		<div class="sidebar-recent hidden-xs">
-			<p>Recent Posts:</p>
+		<!--<div class="sidebar-recent hidden-xs">
+			<p>Mais artigos:</p>
 			<ul>
-				{{ range first 5 .Site.Pages }}
+				{{ range first 2 .Site.Pages }}
 				<li><a href="{{.Permalink}}">{{ .Title }}</a></li>
 				{{ end }}
 			</ul>
-		</div>
+		</div>-->
 
-		<p class="copyright">{{ with .Site.Params.copyright }}{{.}}{{ else }}&copy; {{.Now.Format "2006"}}. All rights reserved. {{end}}</p>
-		<p class="attr">Powered by <a href="http://http://gohugo.io">Hugo</a> &amp; <a href="https://github.com/ExchangeRate-API/strange-case">Strange Case</a> (inspired by <a href="https://github.com/poole/hyde">Hyde</a>).</p>
-
+		<p class="copyright">{{ with .Site.Params.copyright }}{{.}}{{ else }}&copy; {{.Now.Format "2006"}} Amarildo Lucas {{end}}</p>
 	</div>
